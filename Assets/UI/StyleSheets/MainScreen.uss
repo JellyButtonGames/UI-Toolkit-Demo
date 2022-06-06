@@ -1,6 +1,4 @@
 :root {
-    /*Variable Definitions*/
-    /*Colors*/
     --color-1: rgba(0, 0, 0, 0.75);
     --color-2: rgb(108, 160, 195);
     --color-3: rgba(255, 83, 0, 0.7);
@@ -9,22 +7,18 @@
     --color-6: rgb(149, 41, 14);
     --color-7: rgb(183, 235, 255);
     --transparent: rgba(0, 0, 0, 0);
-    /*Fonts*/
     --font-size-h1: 35px;
     --font-size-h2: 30px;
     --font-size-h3: 25px;
-    -unity-font-definition: url('project://database/Assets/Fonts/Syncopate/Syncopate-RegularSDF.asset');
-    /*Images*/
-    --logo-image: url('project://database/Assets/Sprites/unity-logo.png');
-    --background-img: url('project://database/Assets/Sprites/Background.jpg');
-    --img1: url('project://database/Assets/Sprites/1.jpeg');
-    --img2: url('project://database/Assets/Sprites/2.jpeg');
-    --img3: url('project://database/Assets/Sprites/3.jpeg');
-    --img4: url('project://database/Assets/Sprites/4.jpeg');
-    --img5: url('project://database/Assets/Sprites/5.jpeg');
-    --img6: url('project://database/Assets/Sprites/6.jpeg');
-    
-    /*Root Styles*/
+    -unity-font-definition: url('project://database/Assets/Fonts/Syncopate/Syncopate-RegularSDF.asset?fileID=11400000&guid=b91f1ad5eede14668b38a1a59701505b&type=2#Syncopate-RegularSDF');
+    --logo-image: url('project://database/Assets/Sprites/unity-logo.png?fileID=21300000&guid=4ec47a2c59e324e10a5f588da21a9600&type=3#unity-logo');
+    --background-img: url('project://database/Assets/Sprites/Background.jpg?fileID=21300000&guid=fe4e4d33ccd9d415e832a7d434ab1ed3&type=3#Background');
+    --img1: url('project://database/Assets/Sprites/1.jpeg?fileID=21300000&guid=0047926e9273c4da1864dc5b855f7453&type=3#1');
+    --img2: url('project://database/Assets/Sprites/2.jpeg?fileID=21300000&guid=4b6f9e136929e478a83c7bc97dabe413&type=3#2');
+    --img3: url('project://database/Assets/Sprites/3.jpeg?fileID=21300000&guid=ce900a01bbebc4e7fb5ac9f82c5a28f9&type=3#3');
+    --img4: url('project://database/Assets/Sprites/4.jpeg?fileID=21300000&guid=cee8dc127824e43fd960cae513d3f84d&type=3#4');
+    --img5: url('project://database/Assets/Sprites/5.jpeg?fileID=21300000&guid=d6cedce2895584ac28d1bbcb70851b75&type=3#5');
+    --img6: url('project://database/Assets/Sprites/6.jpeg?fileID=21300000&guid=5beb42db836be4f58a362ced97edad56&type=3#6');
     color: var(--color-2);
 }
 
@@ -87,8 +81,9 @@
     width: auto;
     font-size: var(--font-size-h2);
     -unity-font-style: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(251, 255, 189);
     -unity-text-align: middle-left;
+    text-shadow: 2px 2px 3px rgb(204, 85, 0);
 }
 
 #Content #HeaderContainer {
@@ -203,14 +198,13 @@
     width: 100%;
 }
 
-#NavContainer #RadioGroup > VisualElement{
+#NavContainer #RadioGroup > VisualElement {
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
 #NavContainer RadioButtonGroup {
-    
 }
 
 #NavContainer RadioButton Label {
@@ -251,8 +245,4 @@ RadioButton:checked .unity-radio-button__checkmark {
 
 RadioButton:checked .unity-radio-button__checkmark-background {
     border-color: var(--color-6);
-}
-
-.roundedCorners, #InputContainer #TextInput #unity-text-input {
-    border-radius: 8px;
 }

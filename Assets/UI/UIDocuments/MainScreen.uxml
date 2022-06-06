@@ -15,26 +15,26 @@
         </ui:VisualElement>
         <ui:VisualElement name="Content">
             <ui:VisualElement name="HeaderContainer">
-                <ui:Label text="GAME&lt;br&gt;LOGO HERE" display-tooltip-when-elided="true" name="Header" />
+                <ui:Label text="GAME TITLE" display-tooltip-when-elided="true" name="Header" />
                 <ui:VisualElement name="LogoContainer" />
             </ui:VisualElement>
             <ui:VisualElement name="Body">
                 <ui:VisualElement name="TopContent">
                     <ui:VisualElement name="InputContainer">
                         <ui:TextField picking-mode="Ignore" label="Text Field" name="TextInput" class="roundedCorners" />
-                        <ui:Button text="Add" display-tooltip-when-elided="true" name="AddButton" class="formButton roundedCorners" />
-                        <ui:Button text="Remove" display-tooltip-when-elided="true" name="RemoveButton" class="formButton roundedCorners" />
+                        <ui:Button text="Add" display-tooltip-when-elided="true" name="AddButton" class="formButton" />
+                        <ui:Button text="Remove" display-tooltip-when-elided="true" name="RemoveButton" class="formButton" />
                     </ui:VisualElement>
                 </ui:VisualElement>
                 <ui:VisualElement name="WidgetsContainer">
                     <ui:VisualElement name="WidgetContainer" class="Widget1">
-                        <ui:VisualElement name="Image" class="roundedCorners" />
+                        <ui:VisualElement name="Image" />
                         <ui:VisualElement name="NavContainer">
                             <ui:RadioButtonGroup label="Radio Button Group" value="1" name="RadioGroup" choices="1,2,3" />
                         </ui:VisualElement>
                     </ui:VisualElement>
                     <ui:VisualElement name="WidgetContainer" class="Widget2">
-                        <ui:VisualElement name="Image" class="roundedCorners" />
+                        <ui:VisualElement name="Image" />
                         <ui:VisualElement name="NavContainer">
                             <ui:RadioButtonGroup label="Radio Button Group" value="0" name="RadioGroup" choices="1,2,3" />
                         </ui:VisualElement>
