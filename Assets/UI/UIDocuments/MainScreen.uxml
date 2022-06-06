@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/MainScreen.uss?fileID=7433441132597879392&amp;guid=762e9ab574e0c41f3acf217c25d2aae1&amp;type=3#MainScreen" />
+    <ui:VisualElement name="Container">
+        <ui:VisualElement name="Menu" class="pop-animation-hide">
+            <ui:VisualElement name="Navigation">
+                <ui:VisualElement name="MainNav">
+                    <ui:Label text="CONTINUE" display-tooltip-when-elided="true" name="Option" class="pop-animation-hide" />
+                    <ui:Label text="NEW GAME" display-tooltip-when-elided="true" name="Option" class="pop-animation-hide" />
+                    <ui:Label text="MULTIPLAYER" display-tooltip-when-elided="true" name="Option" class="pop-animation-hide" />
+                    <ui:Label text="SETTINGS" display-tooltip-when-elided="true" name="Option" class="pop-animation-hide" />
+                    <ui:Label text="QUIT" display-tooltip-when-elided="true" name="Option" class="pop-animation-hide" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="DecorativeBar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Content">
+            <ui:VisualElement name="HeaderContainer">
+                <ui:Label text="GAME&lt;br&gt;LOGO HERE" display-tooltip-when-elided="true" name="Header" />
+                <ui:VisualElement name="LogoContainer" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Body">
+                <ui:VisualElement name="TopContent">
+                    <ui:VisualElement name="InputContainer">
+                        <ui:TextField picking-mode="Ignore" label="Text Field" name="TextInput" class="roundedCorners" />
+                        <ui:Button text="Add" display-tooltip-when-elided="true" name="AddButton" class="formButton roundedCorners" />
+                        <ui:Button text="Remove" display-tooltip-when-elided="true" name="RemoveButton" class="formButton roundedCorners" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="WidgetsContainer">
+                    <ui:VisualElement name="WidgetContainer" class="Widget1">
+                        <ui:VisualElement name="Image" class="roundedCorners" />
+                        <ui:VisualElement name="NavContainer">
+                            <ui:RadioButtonGroup label="Radio Button Group" value="1" name="RadioGroup" choices="1,2,3" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WidgetContainer" class="Widget2">
+                        <ui:VisualElement name="Image" class="roundedCorners" />
+                        <ui:VisualElement name="NavContainer">
+                            <ui:RadioButtonGroup label="Radio Button Group" value="0" name="RadioGroup" choices="1,2,3" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

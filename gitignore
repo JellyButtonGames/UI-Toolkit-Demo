@@ -1,0 +1,77 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+sysinfo.txt
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+*.DotSettings
+Assets/UnityVS
+.idea/
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+
+# ============== #
+# Build Products #
+# ============== #
+*.apk
+//*.exe
+*.ipa
+.vs/
+Build/
+Standalone Builds/
+[Tt]humbs.db
+
+#==================#
+# Android manifest #
+# ================ #
+//Assets/Plugins/Android/AndroidManifest.xml
+//Assets/Plugins/Android/AndroidManifest.xml.meta
+
+
+#=============#
+# Crashlytics #
+# =========== #
+Assets/StreamingAssets/crashlytics-build.properties
+Assets/Plugins/Android/fabric/res/values/strings.xml.meta
+Assets/StreamingAssets/crashlytics-build.properties.meta
+
+#=========================#
+# Entitas Code Generation #
+# ======================= #
+!jenny.exe
+SQLitePCLRaw.core.dll
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_9_0.dll
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_9_0.dll.meta
+Assets/Firebase/Plugins/x86_64.meta
+Assets.index
+Assets.index.meta
+
+#==============#
+# Addressables #
+# ============ #
+[Ss]erver[Dd]ata/
